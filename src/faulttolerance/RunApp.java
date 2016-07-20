@@ -47,13 +47,13 @@ public class RunApp
     public static void usage()
     {
         System.out.println(
-            "Usage: java -jar ftconfig.jar --vsphereip <vc/esxi server IP> --username <uname> --password <pwd> --clusterName <cluster name> [--vmName <vmName>]");
+            "Usage: java -jar ftops.jar --vsphereip <vc/esxi server IP> --username <uname> --password <pwd> --clusterName <cluster name> [--vmName <vmName>]");
         System.out.println("\nExample : To Enable/Disable FT on any VM from Cluster");
         System.out.println(
-            "\"java -jar ftconfig.jar --vsphereip 10.1.2.3 --username adminUser --password dummy --clusterName TestCluster\"");
+            "\"java -jar ftops.jar --vsphereip 10.1.2.3 --username adminUser --password dummy --clusterName TestCluster\"");
         System.out.println("\nExample : To Enable/Disable FT on specific VM from Cluster");
         System.out.println(
-            "\"java -jar ftconfig.jar --vsphereip 10.1.2.3 --username adminUser --password dummy --clusterName TestCluster --vmName TestVM\"");
+            "\"java -jar ftops.jar --vsphereip 10.1.2.3 --username adminUser --password dummy --clusterName TestCluster --vmName TestVM\"");
      }
 
     /**
